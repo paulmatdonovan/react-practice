@@ -1,0 +1,4 @@
+* {
+  /* The CSS universal selector ( * ) matches elements of any type. The universal selector is a special type selector and can therefore be namespaced when using @namespace  */
+  font-family: poppins;
+}
