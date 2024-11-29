@@ -8,5 +8,11 @@ li {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-color: ;
+    background-color: #6b5b95;
+    color: #feb236;
+}
+
+.navbar .logo {
+    width: 200px;
+    height: 200px;
 }
