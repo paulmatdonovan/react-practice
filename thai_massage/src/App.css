@@ -1,4 +1,25 @@
 * {
   /* The CSS universal selector ( * ) matches elements of any type. The universal selector is a special type selector and can therefore be namespaced when using @namespace  */
-  font-family: poppins;
+  font-family: Poppins;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+
+.hero-images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-height: 400px;
+  gap: 7px;
+}
+
+.hero-images img {
+  max-height: 500px;
+
 }
