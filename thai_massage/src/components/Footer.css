@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    background: #6b5b95;
+    width: 100vw;
+}
+
+.footer .right-section {
+    /* margin: 25px; */
+    padding: 30px;
+    height: 150%;
+
+}
+
+.left-section h3,
+h2 {
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+.footer .map {
+    border: 0.7rem solid #feb236;
+    background-color: #feb236;
+}
+
+.footer p {
+    font-size: 1.3rem;
+    color: #feb236;
+
+}

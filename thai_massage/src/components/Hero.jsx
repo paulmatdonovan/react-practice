@@ -1,7 +1,6 @@
 import React from 'react'
 import Thailand1 from '../Images/Thailand (1).jpg'
 import Massage1 from '../Images/Massage (1).jpg'
-import Thailand3 from '../Images/Thailand (3).jpg'
 import Massage2 from '../Images/Massage (4).jpg'
 
 const Hero = () => {
@@ -11,9 +10,9 @@ const Hero = () => {
                 <h1>The best place to relax in Nhill...</h1>
             </div>
             <div className='hero-images'>
-                <img src={Massage1} alt="An amazing temple in Thailand" />
+                <img src={Massage1} alt="Therapeutic Thai massage" />
                 <img src={Thailand1} alt="An amazing temple in Thailand" />
-                <img src={Massage2} alt="An amazing temple in Thailand" />
+                <img src={Massage2} alt="Therapeutic Thai massage" />
             </div>
 
         </div>

@@ -2,15 +2,19 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #6b5b95;
     color: #feb236;
-    padding: 10px 20px;
+    width: 100vw;
 }
 
 .navbar .logo {
     width: 200px;
     height: 200px;
+}
+
+.nav ul li:visited {
+    text-decoration: none;
 }
 
 .navbar ul {
@@ -23,9 +27,32 @@
     cursor: pointer;
 }
 
+.navbar h1 {
+    font-size: 2.7rem;
+}
+
+a {
+    text-decoration: none;
+    color: #feb236;
+
+}
+
+a:hover {
+    background-color: #382862;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 600px) {
     .navbar {
         display: block;
+        padding: 0;
+        margin: 0;
+        width: 100vw;
     }
 
     .navbar logo {
@@ -41,7 +68,7 @@
         display: block;
         text-align: center;
         margin: auto;
-        padding: 0;
+        padding: 25px;
         margin: 0;
 
     }
