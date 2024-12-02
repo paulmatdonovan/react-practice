@@ -10,6 +10,7 @@
   gap: 35px;
   background: #ff7b25;
   height: 100vh;
+  width: 100vw;
 }
 
 .hero-images {
@@ -25,9 +26,21 @@
   max-height: 500px;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:500px) {
+  .hero {
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+
+  }
+
+  .hero h1 {
+    font-size: 1.2rem;
+  }
+
   .hero-images {
-    display: inline-block;
+    display: block;
+    margin: 15px;
   }
 }
 
@@ -35,6 +48,7 @@
   display: flex;
   align-items: center;
   width: 100vw;
+  height: 100vh;
   justify-content: center;
   background-color: #d64161;
 }
@@ -70,7 +84,7 @@
   font-size: 1.5rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .about {
     display: block;
   }
@@ -84,6 +98,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  text-align: center;
 
 }
 
@@ -106,4 +121,11 @@
 
 .form-page-img img {
   height: 700px;
+}
+
+@media only screen and (max-width: 500px) {
+  .contact-form {
+    display: block;
+    padding: 15px 10px;
+  }
 }

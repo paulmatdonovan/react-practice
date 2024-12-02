@@ -25,6 +25,8 @@ function Contact() {
     return (
         <div className='contact-form'>
             <div className='form'>
+                <h4>If you would like to make a booking, you can fill in the form below. <br /> Serenity is just an email away.  </h4>
+
                 <form ref={form} onSubmit={sendEmail}>                    <label>Name</label>
                     <input type="text" name="user_name" />
                     <label>Email</label>
