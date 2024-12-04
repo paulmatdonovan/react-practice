@@ -3,7 +3,7 @@
     text-align: center;
     justify-content: space-evenly;
     background: #6b5b95;
-    width: 100vw;
+    /* width: 100vw; */
 }
 
 .footer .right-section {
@@ -43,6 +43,17 @@ h2 {
         display: block;
     }
 
+    .footer p {
+        font-size: 1rem;
 
+    }
+
+    .footer .map {
+        border: none;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
 
 }

@@ -1,54 +1,65 @@
 * {
   /* The CSS universal selector ( * ) matches elements of any type. The universal selector is a special type selector and can therefore be namespaced when using @namespace  */
   font-family: Poppins;
+  padding: 0;
+  margin: 0;
 }
 
 .hero {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 35px;
   background: #ff7b25;
-  height: 100vh;
-  width: 100vw;
+  padding: 30px;
+  gap: 35px;
+
+  max-width: 100vw;
+  margin: auto;
 }
 
 .hero-images {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-  justify-content: space-between;
-  max-height: 450px;
-  gap: 7px;
+  gap: 20px;
+  flex: 1;
+
 }
 
 .hero-images img {
-  max-height: 500px;
+  display: flex;
+  align-items: center;
+  max-width: 25%;
+  height: auto;
+  margin: 0 20px;
 }
 
 @media only screen and (max-width:500px) {
   .hero {
     display: block;
-    text-align: center;
-    padding: 10px 15px;
-
+    max-width: 100%;
   }
 
   .hero h1 {
     font-size: 1.2rem;
+    text-align: center;
   }
 
   .hero-images {
     display: block;
+    text-align: center;
     margin: 15px;
+    max-width: 80%;
   }
 }
 
 .about {
   display: flex;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw;
+  height: 100vh; */
   justify-content: center;
   background-color: #d64161;
 }

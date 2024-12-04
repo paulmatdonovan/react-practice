@@ -5,12 +5,12 @@
     justify-content: space-around;
     background-color: #6b5b95;
     color: #feb236;
-    width: 100vw;
+    /* width: 100vw; */
 }
 
 .navbar .logo {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 .nav ul li:visited {
@@ -67,7 +67,8 @@ a:visited {
     .navbar ul {
         display: block;
         text-align: center;
-        margin: auto;
+        font-size: 1.3rem;
+        margin: 15px;
         padding: 25px;
         margin: 0;
 
@@ -95,8 +96,21 @@ a:visited {
         display: block;
         text-align: center;
         margin: auto;
-        padding: 0;
-        margin: 0;
+        padding: 25px;
 
+    }
+
+    .navbar ul li {
+
+        margin: 20px;
+        padding: 0;
+
+    }
+
+
+    a:hover {
+        background-color: #382862;
+        padding: 5px 3px;
+        border-radius: 8px;
     }
 }

@@ -1,6 +1,7 @@
 import { React, useRef } from 'react'
 import emailjs from '@emailjs/browser';
 import massage from '../Images/Massage (2).jpg'
+import Footer from './Footer';
 
 function Contact() {
 
@@ -27,7 +28,8 @@ function Contact() {
             <div className='form'>
                 <h4>If you would like to make a booking, you can fill in the form below. <br /> Serenity is just an email away.  </h4>
 
-                <form ref={form} onSubmit={sendEmail}>                    <label>Name</label>
+                <form ref={form} onSubmit={sendEmail}>
+                    <label>Name</label>
                     <input type="text" name="user_name" />
                     <label>Email</label>
                     <input type="email" name="user_email" />
@@ -41,6 +43,7 @@ function Contact() {
             <div className='form-page-img'>
                 <img src={massage} alt="" />
             </div>
+            <Footer />
         </div>
 
 
