@@ -13,6 +13,11 @@
 
 }
 
+.left-section {
+    margin-top: 25px;
+    padding-top: 20px;
+}
+
 .left-section h3,
 h2 {
     font-weight: 500;

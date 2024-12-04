@@ -1,28 +1,32 @@
 import React from 'react'
+import Footer from './Footer'
 
 const Services = () => {
     return (
-        <div className="App">
-            <h1>Price List</h1>
-            <table>
+        <div className='services-page'>                <h1>Price List</h1>
 
-                <tr>
-                    <td>30 mins</td>
-                    <td>45 mins</td>
-                    <td>60 mins</td>
-                    <td>90 mins</td>
-                    <td>120 mins</td>
+            <div className="services">
 
-                </tr>
-                <tr>
-                    <td>$60</td>
-                    <td>$80</td>
-                    <td>$60</td>
-                    <td>$100</td>
-                    <td>$180</td>
-                </tr>
+                {/* use grid-area for four properties 
+ */}
+                <div className="container">
 
-            </table>
+                    <div className="item1">30 mins</div>
+                    <div className="item2">45 mins</div>
+                    <div className="item3">60 mins</div>
+                    <div className="item4">90 mins</div>
+                    <div className="item5">120 mins</div>
+                    <div className="price1">$60</div>
+                    <div className="price2">$80</div>
+                    <div className="price3">$90</div>
+                    <div className="price4">$100</div>
+                    <div className="price5">$180</div>
+
+
+                </div>
+
+            </div>
+            <Footer />
         </div>
     )
 }
