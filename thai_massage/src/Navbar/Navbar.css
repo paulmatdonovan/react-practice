@@ -9,8 +9,9 @@
 }
 
 .navbar .logo {
-    width: 150px;
-    height: 150px;
+    width: 5rem;
+    height: 5rem;
+    padding: 15px;
 }
 
 .nav ul li:visited {
@@ -104,6 +105,7 @@ a:visited {
 
         margin: 20px;
         padding: 0;
+        font-size: 2em;
 
     }
 
